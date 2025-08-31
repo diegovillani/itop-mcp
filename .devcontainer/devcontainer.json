@@ -1,0 +1,11 @@
+{
+  "name": "iTop MCP Dev",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "itop-mcp",
+  "workspaceFolder": "/app",
+  "extensions": [
+    "ms-python.python",
+    "ms-python.vscode-pylance"
+  ]
+}
+

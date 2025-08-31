@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  itop-mcp:
+    build: .
+    ports:
+      - "9000:9000"
+    environment:
+      - ITOP_URL=https://itop.midominio.com/webservices/rest.php?version=1.3
+      - ITOP_USER=api_user
+      - ITOP_PWD=supersecreto
+
